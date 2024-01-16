@@ -16,6 +16,8 @@
 		25B426732B56C0D600EC22FA /* repoGitDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B426722B56C0D600EC22FA /* repoGitDemoTests.swift */; };
 		25B4267D2B56C0D600EC22FA /* repoGitDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B4267C2B56C0D600EC22FA /* repoGitDemoUITests.swift */; };
 		25B4267F2B56C0D600EC22FA /* repoGitDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B4267E2B56C0D600EC22FA /* repoGitDemoUITestsLaunchTests.swift */; };
+		25B4268C2B56C0F500EC22FA /* ShobhitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B4268B2B56C0F500EC22FA /* ShobhitVC.swift */; };
+		25B4268E2B56C10300EC22FA /* AnmolVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B4268D2B56C10300EC22FA /* AnmolVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		25B426782B56C0D600EC22FA /* repoGitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = repoGitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25B4267C2B56C0D600EC22FA /* repoGitDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = repoGitDemoUITests.swift; sourceTree = "<group>"; };
 		25B4267E2B56C0D600EC22FA /* repoGitDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = repoGitDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		25B4268B2B56C0F500EC22FA /* ShobhitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShobhitVC.swift; sourceTree = "<group>"; };
+		25B4268D2B56C10300EC22FA /* AnmolVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnmolVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				25B4265B2B56C0D500EC22FA /* AppDelegate.swift */,
 				25B4265D2B56C0D500EC22FA /* SceneDelegate.swift */,
 				25B4265F2B56C0D500EC22FA /* ViewController.swift */,
+				25B4268D2B56C10300EC22FA /* AnmolVC.swift */,
+				25B4268B2B56C0F500EC22FA /* ShobhitVC.swift */,
 				25B426612B56C0D500EC22FA /* Main.storyboard */,
 				25B426642B56C0D600EC22FA /* Assets.xcassets */,
 				25B426662B56C0D600EC22FA /* LaunchScreen.storyboard */,
@@ -258,8 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25B4268C2B56C0F500EC22FA /* ShobhitVC.swift in Sources */,
 				25B426602B56C0D500EC22FA /* ViewController.swift in Sources */,
 				25B4265C2B56C0D500EC22FA /* AppDelegate.swift in Sources */,
+				25B4268E2B56C10300EC22FA /* AnmolVC.swift in Sources */,
 				25B4265E2B56C0D500EC22FA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
